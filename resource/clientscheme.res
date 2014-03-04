@@ -2485,6 +2485,185 @@ Scheme
 			}
 		}
 		
+		RobotoBold12
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold16
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold20
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+				
+		RobotoBold24
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold28
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold32
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+
+		RobotoBold36
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold42
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold48
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+	
+		RobotoBlack12
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack16
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack20
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+				
+		RobotoBlack24
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack28
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack32
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+
+		RobotoBlack36
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack42
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack48
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}	
 	}
 
 	// Custom fonts for bechud
