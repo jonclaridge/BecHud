@@ -5,11 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-145"		
-		"ypos"			"c0"	
+		"xpos"			"c-50"		
+		"ypos"			"c20"	
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -45,69 +45,47 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
-	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-30"
-		"ypos"			"-3"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoRegular48"
+		"font"			"RobotoBlack36"
 		"fgcolor"		"255 255 255 255"
 	}				
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-28"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"250"
-		"tall"			"120"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoRegular48"
+		"font"			"RobotoBlack36"
 		"fgcolor"		"0 0 0 255"
 	}					
 	"TeamIndicator"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"65"
-		"ypos"			"80"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"	 		"2"
+		"xpos"			"17"
+		"ypos"			"10"
+		"zpos"			"3"
+		"wide"			"70"
+		"tall"	 		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1" 
