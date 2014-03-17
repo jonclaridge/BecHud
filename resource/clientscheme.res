@@ -31,8 +31,7 @@ Scheme
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
-		//"Black"				"0 0 0 255"
-		//Changed black to a NTSC safe color
+		"Black"				"0 0 0 255"
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"

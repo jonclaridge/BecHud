@@ -69,17 +69,13 @@
 	
 	HudMedicCharge
 	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"fieldName" "HudMedicCharge"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c-50"
+		"ypos"	"c60"
+		"wide"	"100"
+		"tall"	"50"
 	}
 	
 	HudDemomanCharge
@@ -250,19 +246,12 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c50"
+		"ypos"		"c150"
+		"wide"	 	"200"
+		"tall"	 	"100"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID

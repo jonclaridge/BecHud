@@ -69,8 +69,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"RobotoBold32"
-		"font_lodef"	"HudFontMedium"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"HudWhite"
 	}
 	
 	"AccountValueBG"
