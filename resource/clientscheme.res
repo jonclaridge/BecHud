@@ -18,6 +18,16 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// BCS
+		"whitetf2hud"		"255 255 255 255"
+		"blacktf2hud"		"0 0 0 255"
+		"aeroblue"			"201 255 229 225"
+		"amaranth"			"229 43	80 255"
+		"rose"				"255 3 62 255"
+		"amber"				"255 191 0 255"
+		"android"			"164 198 57 255"
+		"aqua"				"0 255 255 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2573,6 +2583,36 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		RobotoBold56
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold64
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold72
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
 	
 		RobotoBlack12
 		{
@@ -2663,9 +2703,39 @@ Scheme
 				"antialias" "1"
 			}
 		}	
+		
+		RobotoBlack56
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold64
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBlack72
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
 	}
 
-	// Custom fonts for bechud
+	// BCS
 
 	
 
