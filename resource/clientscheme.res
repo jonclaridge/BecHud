@@ -27,6 +27,7 @@ Scheme
 		"amber"				"255 191 0 255"
 		"android"			"164 198 57 255"
 		"aqua"				"0 255 255 255"
+		"amethyst"			"153 102 204 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -438,6 +439,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
 		"Default"
 		{
 			"1"
@@ -2403,7 +2405,387 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		// becfonts
+		// xhair
+		
+		"xHairCircle"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"xHairCircleOutline"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
 
+		"Crosshairs8"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"8"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs10"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"10"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs12"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"12"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs14"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"14"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs16"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"16"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs20"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"20"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs22"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"22"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs28"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"28"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs30"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"30"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs36"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"36"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs38"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"38"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs40"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"40"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Symbol16"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"SymbolOutline24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Symbol32"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol40"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings16"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWingsOutline24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		"KonrWings32"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings40"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
 		RobotoRegular12
 		{
 			"1"
@@ -2414,12 +2796,32 @@ Scheme
 			}
 		}
 		
+		RobotoRegular14
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
 		RobotoRegular16
 		{
 			"1"
 			{
 				"name"		"Roboto Regular"
 				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular18
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"18"
 				"antialias" "1"
 			}
 		}
@@ -2734,8 +3136,6 @@ Scheme
 			}
 		}
 	}
-
-	// BCS
 
 	
 
@@ -4658,5 +5058,19 @@ Scheme
 			"font" "resource/fonts/Roboto-Regular.ttf"
 			"name" "Roboto Regular"
 		}	
-	}
+		"10" // Fog's xHairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"11" // Thin Cross
+		{
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"12" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
 }

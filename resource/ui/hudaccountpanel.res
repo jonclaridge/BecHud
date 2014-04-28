@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_x"			"20"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"android"
+		"NegativeColor"			"rose"
+		"delta_lifetime"		"1.0"
+		"delta_item_font"		"RobotoBold28"
 	}
 	
 	"AccountBG"
@@ -35,19 +35,15 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
 		"xpos"			"25"
-		"xpos_lodef"	"12"
 		"ypos"			"25"
-		"ypos_lodef"	"112"
 		"zpos"			"0"
 		"wide"			"50"
-		"wide_lodef"	"15"
 		"tall"			"50"
-		"tall_lodef"	"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 0 0 125"
+		"iconColor"		"android"
 	}
 	
 	"AccountValue"
@@ -68,8 +64,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold32"
-		"fgcolor"		"HudWhite"
+		"font"			"RobotoBold28"
+		"fgcolor"		"whitetf2hud"
 	}
 	
 	"AccountValueBG"
@@ -78,7 +74,6 @@
 		"fieldName"		"AccountValueBG"
 		"xpos"			"2"
 		"ypos"			"2"
-		"ypos_lodef"	"121"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
@@ -91,8 +86,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold32"
-		"font_lodef"	"HudFontMedium"
-		"fgcolor"		"0 0 0 255"
+		"font"			"RobotoBold28"
+		"fgcolor"		"blacktf2hud"
 	}
 }

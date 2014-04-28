@@ -35,8 +35,30 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"RobotoBlack42"
-		"fgcolor" "HudWhite"
+		"fgcolor" "whitetf2hud"
 	}
+	
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"autoResize"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"RobotoBlack42"
+		"fgcolor" "blacktf2hud"
+	}
+	
 	
 	"ChargelabelBG"
 	{
@@ -48,8 +70,8 @@
 		"wide" "100"
 		"tall" "35"
 		"autoResize" "1"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"fillcolor" "0 0 0 125"
 	}	
 	
@@ -72,7 +94,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"RobotoBold20"
-		"fgcolor" "HudWhite"
+		"fgcolor" "whitetf2hud"
 	}
 	
 	"ChargeMeter"
@@ -84,7 +106,7 @@
 		"ypos"			"45"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"20"				
+		"tall"			"2"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

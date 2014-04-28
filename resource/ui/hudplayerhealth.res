@@ -20,36 +20,50 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"xpos"			"16"
+		"ypos"			"16"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"14"
+		"ypos"			"14"
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"16"
+		"ypos"			"16"
+		"zpos"			"-5"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -58,14 +72,14 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoBold48"
-		"fgcolor"		"255 255 255 255"
+		"font"			"RobotoBold32"
+		"fgcolor"		"whitetf2hud"
 	}				
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"1"
+		"xpos"			"17"
 		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"100"
@@ -74,18 +88,18 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoBold48"
-		"fgcolor"		"0 0 0 255"
+		"font"			"RobotoBold32"
+		"fgcolor"		"blacktf2hud"
 	}					
 	"TeamIndicator"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"0"
-		"ypos"			"5"
+		"xpos"			"12"
+		"ypos"			"45"
 		"zpos"			"-1"
-		"wide"			"100"
-		"tall"	 		"40"
+		"wide"			"80"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1" 
@@ -114,7 +128,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"rose"
 	}		
 	"PlayerStatusMilkImage"
 	{
@@ -129,7 +143,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"rose"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -145,7 +159,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"rose"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -161,7 +175,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"rose"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -177,7 +191,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -193,7 +207,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -209,7 +223,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -226,7 +240,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -242,7 +256,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -258,7 +272,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 	
 
@@ -277,7 +291,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"rose"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
@@ -294,7 +308,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -311,7 +325,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -328,6 +342,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"android"
 	}
 }

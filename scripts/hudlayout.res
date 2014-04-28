@@ -1,5 +1,347 @@
 "Resource/HudLayout.res"
 {
+	// xhairs
+
+	xHairCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairCircle"
+		"font"			"xHairCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-102"
+		"wide"			"201"
+		"tall"			"200"
+
+		//"font"		"xHairCircleOutline"
+		"font"			"xHairCircle"
+		"labelText"		"o"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 100"
+	}
+	
+	ScatterSpread
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ScatterSpread"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-99"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"CrosshairsOutline32"
+		"font"			"Crosshairs32"
+		"labelText"		"0"
+		"textAlignment"	"center"
+		"outline"		"1"
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-102"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"CrosshairsOutline26"
+		"font"			"Crosshairs26"
+		"labelText"		"2"
+		"textAlignment"		"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCrossSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCrossSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-101"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline18"
+		"font"			"Crosshairs18"
+		"labelText"		"2"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCrossLarge
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCrossLarge"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-102"
+		"ypos"			"c-98"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"CrosshairsOutline32"
+		"font"			"Crosshairs32"
+		"labelText"		"2"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicDot"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-103"
+		"ypos"			"c-100"
+		"wide"			"201"
+		"tall"			"201"
+
+		"font"		"CrosshairsOutline24"
+		//"font"			"Crosshairs24"
+		"labelText"		"3"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+
+	CircleDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CircleDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	ThinCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"9"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsPlus
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsPlus"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"c"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	Wings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Wings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"d"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsSmallDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmallDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"f"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"0 0 0 0"
+	}
+	
+	WingsSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"g"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	OpenCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"OpenCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-85"
+		"ypos"			"c-100"
+		"wide"			"199"
+		"tall"			"200"
+
+		"font"			"CrosshairsOutline24"
+		"font"			"Crosshairs24"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	OpenCrossDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"OpenCrossDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-85"
+		"ypos"			"c-100"
+		"wide"			"199"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline24"
+		"font"			"Crosshairs24"
+		"labelText"		"h"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	ThinCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-103"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"SymbolOutline24"
+		"font"			"Symbol24"
+		"labelText"		"+"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	KonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KonrWings"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-108"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"		"KonrWingsOutline24"
+
+		//"font"			"KonrWings24"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	// actual stuff	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -58,8 +400,7 @@
 		"xpos"			"r162"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
+		"ypos_minmode"	"r5sfX360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
@@ -192,7 +533,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c60"
+		"ypos"					"c90"
 		"wide"					"100"
 		"tall"  				"100"
 		"visible" 				"1"
@@ -246,10 +587,10 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c50"
-		"ypos"		"c150"
-		"wide"	 	"200"
-		"tall"	 	"100"
+		"xpos"		"c-100"
+		"ypos"		"c2"
+		"wide"	 	"600"
+		"tall"	 	"45"
 		"priority"	"40"
 
 	}
@@ -259,16 +600,12 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-100"
+		"ypos"		"c2"
+		"wide"	 	"600"
+		"tall"	 	"45"
 		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
+
 	}
 	
 	CSecondaryTargetID
@@ -276,18 +613,11 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"300"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
+		"xpos"		"c-100"
+		"ypos"		"c33"
+		"wide"	 	"600"
+		"tall"	 	"45"
+		"priority"	"40"
 
 	}
 	
