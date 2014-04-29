@@ -433,12 +433,12 @@ event HudTournamentSetupPanelClose
 event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"whitetf2hud"		Linear 0.0 0.3
-	Animate	ChargeLabel 	FgColor		"android"		Linear 0.3 0.6
+	Animate	ChargeLabel 	FgColor		"android"		Linear 0.3 0.9
 	
 	Animate	ChargeMeter 	FgColor		"whitetf2hud"		Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"android"		Linear 0.3 0.6
+	Animate	ChargeMeter 	FgColor		"android"		Linear 0.3 0.9
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop	0.9
 }
 
 // call to loop HudHealthBonusPulse
