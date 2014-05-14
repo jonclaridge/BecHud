@@ -6,9 +6,9 @@
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"android"
-		"NegativeColor"			"rose"
+		"NegativeColor"			"amber"
 		"delta_lifetime"		"1.0"
-		"delta_item_font"		"RobotoBold28"
+		"delta_item_font"		"RobotoBold42"
 	}
 	
 	"AccountBG"
@@ -34,11 +34,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"25"
-		"ypos"			"25"
+		"xpos"			"35"
+		"ypos"			"35"
 		"zpos"			"0"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"75"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -50,11 +50,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"0"
+		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"150"
+		"tall"			"150"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -64,7 +64,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold28"
+		"font"			"RobotoBold42"
 		"fgcolor"		"whitetf2hud"
 	}
 	
@@ -72,11 +72,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBG"
-		"xpos"			"2"
+		"xpos"			"-4"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"150"
+		"tall"			"150"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -86,7 +86,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold28"
+		"font"			"RobotoBold42"
 		"fgcolor"		"blacktf2hud"
 	}
 }
