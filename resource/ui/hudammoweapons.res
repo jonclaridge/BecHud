@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"RobotoBold28"
+		"font"			"RobotoBold32"
 		"fgcolor"		"android"
 		"xpos"			"-8"
 		"ypos"			"0"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"RobotoBold28"
+		"font"			"RobotoBold32"
 		"fgcolor"		"blacktf2hud"
 		"xpos"			"-7"
 		"ypos"			"2"

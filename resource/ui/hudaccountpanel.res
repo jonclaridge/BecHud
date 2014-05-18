@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"20"
-		"delta_item_start_y"	"0"
-		"delta_item_end_y"		"0"
+		"delta_item_x"			"40"
+		"delta_item_start_y"	"30"
+		"delta_item_end_y"		"30"
 		"PositiveColor"			"android"
 		"NegativeColor"			"amber"
 		"delta_lifetime"		"1.0"
-		"delta_item_font"		"RobotoBold42"
+		"delta_item_font"		"RobotoBold28"
 	}
 	
 	"AccountBG"
@@ -34,11 +34,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"35"
-		"ypos"			"35"
+		"xpos"			"15"
+		"ypos"			"63"
 		"zpos"			"0"
-		"wide"			"75"
-		"tall"			"75"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
